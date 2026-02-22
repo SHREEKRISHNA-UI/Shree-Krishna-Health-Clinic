@@ -73,6 +73,14 @@ export default function Home() {
               Learn More About Our Services
             </a>
           </div>
+          <div className="mt-10 text-center bg-blue-50 p-6 rounded">
+            <h3 className="text-2xl font-semibold">
+              Ready to make an appointment?
+            </h3>
+            <p className="mt-2 text-gray-700">
+              Call us at <strong>+977 985-7086368</strong> or <strong>985-7083903</strong>, or use our <a href="/contact" className="text-blue-600 underline">contact form</a>.
+            </p>
+          </div>
         </div>
       </section>
     </div>

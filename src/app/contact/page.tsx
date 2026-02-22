@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
 
-export const metadata = {
-  title: "Contact - Shree Krishna Health Clinic",
-  description: "Get in touch with our clinic via phone or contact form.",
-};
+// export const metadata = {
+//   title: "Contact - Shree Krishna Health Clinic",
+//   description: "Get in touch with our clinic via phone or contact form.",
+// };
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -26,8 +26,12 @@ export default function ContactPage() {
       <h1 className="text-4xl font-bold text-center">Contact Us</h1>
       <p className="text-center text-gray-700">
         Have questions or need to book an appointment? Reach out using the form
-        below or call us at (123) 456‑7890.
+        below or call us at <strong>+977 985-7086368</strong> / <strong>985-7083903</strong>.
       </p>
+      <div className="text-center text-gray-600">
+        <p>Address: Puspalal Park-6, Butwal 32907</p>
+        <p>Hours: Sun–Fri 7:00 AM–7:30 PM | Sat 9:00 AM–5:30 PM</p>
+      </div>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label className="block text-gray-700">Name</label>

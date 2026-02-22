@@ -55,6 +55,11 @@ export default function RootLayout({
                 </Link>
               </li>
               <li>
+                <Link href="/laparoscopy" className="text-gray-700 hover:text-gray-900">
+                  Laparoscopy
+                </Link>
+              </li>
+              <li>
                 <Link href="/dermatology" className="text-gray-700 hover:text-gray-900">
                   Dermatology
                 </Link>
@@ -76,7 +81,7 @@ export default function RootLayout({
         <footer className="bg-gray-100 mt-12 py-6">
           <div className="container mx-auto px-4 text-center text-sm text-gray-600">
             <p>© 2026 Shree Krishna Health Clinic. All rights reserved.</p>
-            <p>123 Health St., Your City, Country | (123) 456‑7890</p>
+            <p>Puspalal Park-6, Butwal 32907 | +977 985-7086368, 985-7083903</p>
           </div>
         </footer>
       </body>

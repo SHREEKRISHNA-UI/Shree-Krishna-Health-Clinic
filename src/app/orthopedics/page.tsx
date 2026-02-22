@@ -29,6 +29,17 @@ export default function OrthopedicsPage() {
       ],
       imageUrl: "https://via.placeholder.com/400x300?text=Dr+Sneha",
     },
+    {
+      name: "Dr. Saraswoti Shrestha",
+      title: "Orthopedic Specialist",
+      bio: "Renowned for fracture and trauma management and arthritis care.",
+      treatments: [
+        "Fracture & trauma management",
+        "Joint pain & arthritis treatment",
+        "Injection therapy and physiotherapy coordination",
+      ],
+      imageUrl: "https://via.placeholder.com/400x300?text=Dr+Saraswoti",
+    },
   ];
 
   return (

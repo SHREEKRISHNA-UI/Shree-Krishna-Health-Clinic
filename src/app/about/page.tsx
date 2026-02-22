@@ -22,6 +22,14 @@ export default function AboutPage() {
         </p>
       </section>
       <section>
+        <h2 className="text-2xl font-semibold">Contact & Hours</h2>
+        <p className="text-gray-700">
+          <strong>Address:</strong> Puspalal Park-6, Butwal 32907<br />
+          <strong>Phone:</strong> +977 985-7086368, 985-7083903<br />
+          <strong>Hours:</strong> Sun–Fri 7:00 AM–7:30 PM; Sat 9:00 AM–5:30 PM
+        </p>
+      </section>
+      <section>
         <h2 className="text-2xl font-semibold">Why Choose Us?</h2>
         <ul className="list-disc list-inside text-gray-700">
           <li>Board-certified specialists</li>

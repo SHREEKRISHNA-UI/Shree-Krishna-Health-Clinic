@@ -44,7 +44,8 @@ export default function DermatologyPage() {
           <li>Acne and rosacea treatment</li>
           <li>Skin cancer screenings and mole removal</li>
           <li>Laser therapy and chemical peels</li>
-          <li>Hair and scalp disorders</li>
+          <li>Hair and scalp disorders (including PRP therapy for hair loss)</li>
+          <li>Nail health and infections</li>
           <li>Anti-aging and cosmetic procedures</li>
         </ul>
       </section>
