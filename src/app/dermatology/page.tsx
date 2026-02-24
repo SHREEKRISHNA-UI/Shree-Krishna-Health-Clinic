@@ -16,7 +16,7 @@ export default function DermatologyPage() {
         "Skin cancer screenings",
         "Hair loss treatments",
       ],
-      imageUrl: "https://via.placeholder.com/400x300?text=Dr+Vikram",
+      imageUrl: "https://cdn.pixabay.com/photo/2025/10/16/03/56/doctor-9897349_1280.png",
     },
     {
       name: "Dr. Meera Joshi",
