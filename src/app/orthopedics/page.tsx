@@ -9,7 +9,7 @@ export const metadata = {
 export default function OrthopedicsPage() {
   const doctors = [
     {
-      name: "Dr. Rajesh Kumar",
+      name: "Dr. Santosh Bhattarai",
       title: "Senior Orthopedic Surgeon",
       bio: "Expert in joint replacement and complex trauma surgery with extensive experience in leading medical institutions.",
       treatments: [
@@ -18,7 +18,7 @@ export default function OrthopedicsPage() {
         "Complex Trauma",
         "Joint Reconstruction"
       ],
-      imageUrl: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=400&h=500",
+      imageUrl: "https://scontent.fbwa1-1.fna.fbcdn.net/v/t39.30808-6/495477140_23885526147738274_437400213593229750_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=53a332&_nc_ohc=sb1MeYqkRrYQ7kNvwGVfM5U&_nc_oc=AdmKPBGxYRq2NkZOuq1xfsUV4P91BscHLiRgAdDeWR1Jh09W25NfDSdLnfcoMH_75Dj0Rci_7w4DCSiR76M1cIOZ&_nc_zt=23&_nc_ht=scontent.fbwa1-1.fna&_nc_gid=S9-nvxpWPFV0uxAn9eOzQw&oh=00_AftA6snUmAiHAip9SiTcD-AIJ6tZbwbVCZ7eRpbFa-b5bw&oe=69A35D92",
     }
 
   ];
