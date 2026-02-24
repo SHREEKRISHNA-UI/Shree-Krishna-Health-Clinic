@@ -19,31 +19,8 @@ export default function OrthopedicsPage() {
         "Joint Reconstruction"
       ],
       imageUrl: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=400&h=500",
-    },
-    {
-      name: "Dr. Saraswoti Shrestha",
-      title: "Orthopedic Specialist",
-      bio: "Renowned for fracture management and geriatric orthopedic care, focusing on restoring mobility in elderly patients.",
-      treatments: [
-        "Fracture Management",
-        "Arthritis Therapy",
-        "Osteoporosis Care",
-        "Injection Therapy"
-      ],
-      imageUrl: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400&h=500",
-    },
-    {
-      name: "Dr. Sneha Verma",
-      title: "Pediatric Orthopedist",
-      bio: "Dedicated to treating musculoskeletal disorders in children, from congenital conditions to growth plate injuries.",
-      treatments: [
-        "Scoliosis Treatment",
-        "Clubfoot Correction",
-        "Pediatric Fractures",
-        "Gait Analysis"
-      ],
-      imageUrl: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=400&h=500",
-    },
+    }
+
   ];
 
   return (
