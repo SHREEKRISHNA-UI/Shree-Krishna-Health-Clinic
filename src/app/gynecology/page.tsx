@@ -6,30 +6,7 @@ export const metadata = {
 };
 
 export default function GynecologyPage() {
-  const doctors = [
-    {
-      name: "Dr. Priya Sharma",
-      title: "Senior Gynecologist",
-      bio: "Over 15 years of experience in women’s health and maternity care.",
-      treatments: [
-        "Prenatal and postnatal care",
-        "Fertility consultations",
-        "Pap smears and cervical screenings",
-      ],
-      imageUrl: "https://via.placeholder.com/400x300?text=Dr+Priya",
-    },
-    {
-      name: "Dr. Anjali Rao",
-      title: "Gynecologic Surgeon",
-      bio: "Specializes in minimally invasive procedures and endometriosis.",
-      treatments: [
-        "Laparoscopic surgery",
-        "Endometriosis management",
-        "Contraceptive counseling",
-      ],
-      imageUrl: "https://via.placeholder.com/400x300?text=Dr+Anjali",
-    },
-  ];
+
 
   return (
     <div className="space-y-6">
@@ -74,11 +51,7 @@ export default function GynecologyPage() {
           research.
         </p>
       </section>
-      <div className="mt-8 grid gap-8 md:grid-cols-2">
-        {doctors.map((doc) => (
-          <DoctorCard key={doc.name} {...doc} />
-        ))}
-      </div>
+
     </div>
   );
 }

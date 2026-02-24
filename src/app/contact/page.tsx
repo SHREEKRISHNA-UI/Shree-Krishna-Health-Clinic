@@ -26,7 +26,7 @@ export default function ContactPage() {
       <h1 className="text-4xl font-bold text-center">Contact Us</h1>
       <p className="text-center text-gray-700">
         Have questions or need to book an appointment? Reach out using the form
-        below or call us at <strong>+977 985-7086368</strong> / <strong>985-7083903</strong>.
+        below or call us at <strong>+977 985-7086368</strong>.
       </p>
       <div className="text-center text-gray-600">
         <p>Address: Puspalal Park-6, Butwal 32907</p>

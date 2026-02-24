@@ -78,7 +78,7 @@ export default function Home() {
               Ready to make an appointment?
             </h3>
             <p className="mt-2 text-gray-700">
-              Call us at <strong>+977 985-7086368</strong> or <strong>985-7083903</strong>, or use our <a href="/contact" className="text-blue-600 underline">contact form</a>.
+              Call us at <strong>+977 985-7086368</strong>, or use our <a href="/contact" className="text-blue-600 underline">contact form</a>.
             </p>
           </div>
         </div>
