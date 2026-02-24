@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #0f4c75;
+  --color-secondary: #3282b8;
+  --color-accent: #bbe1fa;
+  --color-neutral-base: #1b262c;
+  --color-background-soft: #f4f7f6;
+  --font-heading: "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1b262c;
+  --primary: #0f4c75;
+  --secondary: #3282b8;
+  --accent: #bbe1fa;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  body {
+    @apply bg-[var(--background)] text-[var(--foreground)] font-sans antialiased;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight text-[#0f4c75];
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-[#0f4c75] text-white rounded-lg font-semibold transition-all hover:bg-[#1b262c] shadow-lg hover:shadow-xl active:scale-95 cursor-pointer;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-[#3282b8] text-white rounded-lg font-semibold transition-all hover:bg-[#0f4c75] shadow-md hover:shadow-lg active:scale-95 cursor-pointer;
+  }
+
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl rounded-2xl;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
