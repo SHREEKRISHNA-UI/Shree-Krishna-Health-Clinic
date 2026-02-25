@@ -7,32 +7,21 @@ export const metadata = {
 };
 
 export default function DermatologyPage() {
-  // const doctors = [
-  //   {
-  //     name: "Dr. Vikram Patel",
-  //     title: "Senior Consultant Dermatologist",
-  //     bio: "A specialist in medical dermatology with over 15 years of experience in treating complex skin conditions.",
-  //     treatments: [
-  //       "Acne & Rosacea",
-  //       "Eczema & Psoriasis",
-  //       "Skin Cancer Screening",
-  //       "Vitiligo Management"
-  //     ],
-  //     imageUrl: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=400&h=500",
-  //   },
-  //   {
-  //     name: "Dr. Meera Joshi",
-  //     title: "Cosmetic Dermatologist",
-  //     bio: "Focusing on non-surgical aesthetic treatments and rejuvenation techniques to enhance your natural beauty.",
-  //     treatments: [
-  //       "Laser Therapies",
-  //       "Chemical Peels",
-  //       "PRP Therapy",
-  //       "Anti-Aging Treatments"
-  //     ],
-  //     imageUrl: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400&h=500",
-  //   },
-  // ];
+  const doctors = [
+    {
+      name: "Dr. Shrikant Pandey",
+      title: "Dermatologist, Venereologist & Cosmetologist",
+      bio: "Expert in clinical dermatology and aesthetic cosmetology with a focus on comprehensive skin health and rejuvenation.",
+      treatments: [
+        "Clinical Dermatology",
+        "Venereology",
+        "Cosmetology",
+        "Laser Procedures",
+        "NMC No: 12512"
+      ],
+      imageUrl: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=400&h=500",
+    }
+  ];
 
   return (
     <div className="bg-background-soft min-h-screen">
@@ -96,12 +85,13 @@ export default function DermatologyPage() {
               <h2 className="text-3xl font-bold mb-2">Meet Our Specialists</h2>
               <p className="text-gray-500 font-medium">Board-certified experts dedicated to your skin health.</p>
             </div>
-            {/* <div className="grid gap-10 md:grid-cols-2 max-w-5xl mx-auto">
+            <div className="grid gap-10 md:grid-cols-2 max-w-5xl mx-auto">
               {doctors.map((doc) => (
                 <DoctorCard key={doc.name} {...doc} />
               ))}
-            </div> */}
+            </div>
           </div>
+
 
           <div className="bg-primary rounded-[2rem] p-12 text-center text-white relative overflow-hidden">
             <h3 className="text-3xl font-bold mb-4">Healthy Skin is a Phone Call Away</h3>
